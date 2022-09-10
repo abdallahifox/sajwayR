@@ -1,3 +1,8 @@
+//TODO: Resoruces Image
+import ChoseFood from "./../assets/chooseFoodicon.png";
+import PlaceOrder from "./../assets/placeOrdericon.png";
+import GoIcon from "./../assets/goicon.png";
+
 export const navLinks = [
   {
     id: "home-1",
@@ -39,6 +44,27 @@ export const navLinksMobile = [
     title: "Menus",
     link: "/menus",
     icon: "https://api.iconify.design/ic:twotone-restaurant-menu.svg?color=%23ffffff",
+  },
+];
+
+export const choseFoodSection = [
+  {
+    id: "choseFood",
+    title: "Choose Food",
+    desc: "It is a long establed fact <br/> will distracted readable <br/> looking at layou.",
+    image: ChoseFood,
+  },
+  {
+    id: "PlaceOrder",
+    title: "Place Order",
+    desc: "It is a long establed fact <br/> will distracted readable <br/> looking at layou.",
+    image: PlaceOrder,
+  },
+  {
+    id: "GoIcon",
+    title: "Receive & Go",
+    desc: "It is a long establed fact <br/> will distracted readable <br/> looking at layou.",
+    image: GoIcon,
   },
 ];
 

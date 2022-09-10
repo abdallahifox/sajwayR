@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import HeroIamge from './../../assets/Image.png'
 function Hero () {
   return (
-    <div className='layout h-full w-full'>
+    <section className='layout h-full w-full'>
       <div className='container mx-auto grid  xl:grid-cols-2 gap-4 place-items-center text-white w-full h-full'>
         <div className='ml-4'>
           <h1 className='font-bold text-6xl mb-2'>
@@ -38,7 +38,7 @@ function Hero () {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
