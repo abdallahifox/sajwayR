@@ -42,4 +42,19 @@ export const navLinksMobile = [
   },
 ];
 
-
+export const menus = [
+  {
+    id: "1",
+    name: "Chicken",
+    image: "https://via.placeholder.com/183x273",
+    catigory: "meals",
+    special: true,
+  },
+  {
+    id: "12",
+    name: "Shawrma",
+    image: "https://via.placeholder.com/183x273",
+    catigory: "Shandwitch",
+    special: false,
+  },
+];

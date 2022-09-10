@@ -11,7 +11,7 @@ function Hero () {
     <div className='layout h-full w-full'>
       <div className='container mx-auto grid  xl:grid-cols-2 gap-4 place-items-center text-white w-full h-full'>
         <div className='ml-4'>
-          <h1 class='font-bold text-6xl mb-2'>
+          <h1 className='font-bold text-6xl mb-2'>
             Take Food
             <br /> & Let’s Go.
           </h1>
@@ -19,7 +19,7 @@ function Hero () {
             Have any food on your mind? Just order now!
           </p>
 
-          <button class='btn gap-2 bg-orange-700 border-none outline-none hover:bg-orange-600 rounded-full px-10'>
+          <button className='btn gap-2 bg-orange-700 border-none outline-none hover:bg-orange-600 rounded-full px-10'>
             <Link to='/menus'>
               <span className='text-xs inline-block'>Today's Menu</span>
               <img
