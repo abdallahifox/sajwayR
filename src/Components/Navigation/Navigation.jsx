@@ -11,7 +11,7 @@ function Navigation () {
   return (
     <>
       <div className='bg-black/75 absolute top-0 left-0 w-full h-[126]'>
-        <div className='max-w-6xl mx-auto'>
+        <div className='layout'>
           <div className='container mx-auto p-4 flex items-center justify-between xl:justify-center '>
             <div className=' items-center justify-start pr-4'>
               <img src={Logo} alt='Girl in a jacket' />
