@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 //TODO: Import Logo And BG Constant
 import Logo from './../../assets/Logo.png'
+import TimeHeader from './../../assets/TimeHeader.png'
 import { navLinks, navLinksMobile } from './../../Constant/index'
 
 function Navigation () {
@@ -16,9 +17,15 @@ function Navigation () {
             <div className=' items-center justify-start pr-4 '>
               <img src={Logo} alt='Girl in a jacket' className='w-[70%]' />
             </div>
-            <div className='text-green-500 text-bold w-[100px] mx-3'>
-              <p className='text-xs w-full text-left '>Open All Days</p>
-              <p className='text-xs w-full text-left'>11 AM- 11 PM</p>
+
+            <div className='text-green-500 text-bold w-[150px] flex mx-3'>
+              <div>
+                <img src={TimeHeader} alt='TimeHeader' className='mr-2' />
+              </div>
+              <div>
+                <p className='text-xs w-full text-left '>Open All Days</p>
+                <p className='text-xs w-full text-left'>11 AM- 11 PM</p>
+              </div>
             </div>
             <div className='hidden xl:flex navbar bg-orange-500 rounded-full justify-center w-[600px]'>
               <div className='items-center mx-3'>

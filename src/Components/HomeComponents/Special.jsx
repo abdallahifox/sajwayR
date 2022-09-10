@@ -2,6 +2,8 @@ import React from 'react'
 //TODO:Resources
 import SpecialImage from './../../assets/specialimage.png'
 import SpecialIcon from './../../assets/specialicon.png'
+import Time from './../../assets/time.png'
+
 //TODO: Constant
 import { menus } from './../../Constant/index'
 
@@ -30,16 +32,19 @@ function Special () {
           </h2>
           <p className='text-md font-semibold text-center mb-4 '>
             It is a long established fact that a will distracted
-            <br /> readable content of a page when looking at its the layout
-            <br /> using Lorem Ipsum is that it has a normal distributionas
+            <br /> readable content of a page when looking at. <br /> its the
+            layout using Lorem Ipsum is that it has a normal distributionas
             <br /> opposed to using making it look like.
           </p>
           <div className='bg-white p-8 rounded-md flex flex-col xl:flex-row justify-between items-center w-full'>
             <div className='price flex flex-col items-center'>
               <p className='text-orange-600 font-bold text-3xl'>
-                <span className='text-sm'>$</span> 89.00
+                <span className='text-sm'>$</span> {specialOffer.price}
               </p>
-              <p className=''>25 min away</p>
+              <p className='flex text-center text-xs mb-2'>
+                <img src={Time} alt='Time ICON' className='rounded-md mr-1' />
+                25 min away
+              </p>
             </div>
             <button className='btn bg-orange-600 rounded-full border-none hover:bg-orange-500'>
               order Now

@@ -75,6 +75,7 @@ export const menus = [
     image: "https://via.placeholder.com/183x273",
     catigory: "meals",
     special: true,
+    price: "89.00",
   },
   {
     id: "12",
@@ -82,5 +83,6 @@ export const menus = [
     image: "https://via.placeholder.com/183x273",
     catigory: "Shandwitch",
     special: false,
+    price: "50.00",
   },
 ];
