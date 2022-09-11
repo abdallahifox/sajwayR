@@ -4,16 +4,21 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
 //TODO: React Components and Pages
+import Layout from './Components/UI_Helper/Layout'
 import Navigation from './Components/Navigation/Navigation'
+import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home'
 function App () {
   return (
-    <div>
-      <Navigation />
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
-    </div>
+    <>
+      <Layout>
+        <Navigation />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </Layout>
+      <Footer />
+    </>
   )
 }
 

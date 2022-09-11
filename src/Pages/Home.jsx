@@ -8,13 +8,13 @@ import RegularMenu from './../Components/HomeComponents/RegularMenu'
 import CTA from './../Components/HomeComponents/CTA'
 function Home () {
   return (
-    <div className='home h-screen'>
+    <>
       <Hero />
       <Special />
-      <ChoseFoodSection/>
-      <RegularMenu/>
-      <CTA/>
-    </div>
+      <ChoseFoodSection />
+      <RegularMenu />
+      <CTA />
+    </>
   )
 }
 
