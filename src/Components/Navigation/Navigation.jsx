@@ -18,7 +18,7 @@ function Navigation () {
               <img src={Logo} alt='Girl in a jacket' className='w-[70%]' />
             </div>
 
-            <div className='text-green-500 text-bold w-[150px] flex mx-3'>
+            <div className='text-green-500 text-bold w-[200px] flex mx-3'>
               <div>
                 <img src={TimeHeader} alt='TimeHeader' className='mr-2' />
               </div>

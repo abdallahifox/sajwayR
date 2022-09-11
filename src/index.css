@@ -11,6 +11,7 @@
     @apply bg-orange-600 rounded-full border-none hover:bg-orange-500
 }
 
+
 .home {
      background-image: url("./assets/Bg.png");
      background-position: center;

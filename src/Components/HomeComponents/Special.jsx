@@ -14,7 +14,7 @@ function Special () {
     <section className='layout py-20'>
       <div className='container mx-auto grid xl:grid-cols-2 gap-4 place-items-center'>
         <div className='flex items-center justify-center relative p-4 bg-orange-200 w-[320px] xl:w-[420px] h-[440px] hover:translate-y-3 ease-in-out duration-300'>
-          <div className='w-[90px] h-[90px]  absolute -right-10 bottom-20  hidden xl:block'>
+        <div className='w-[90px] h-[90px]  absolute -right-10 bottom-20  hidden xl:block'>
             <img src={SpecialImage} alt='Image' className='rounded-md' />
           </div>
           <img
