@@ -46,9 +46,7 @@ function Special () {
                 25 min away
               </p>
             </div>
-            <button className='btn bg-orange-600 rounded-full border-none hover:bg-orange-500'>
-              order Now
-            </button>
+            <button className='btn button'>order Now</button>
           </div>
         </div>
       </div>

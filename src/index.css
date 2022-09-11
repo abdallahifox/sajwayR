@@ -6,6 +6,11 @@
     @apply max-w-6xl mx-auto
 }
 
+
+.button{
+    @apply bg-orange-600 rounded-full border-none hover:bg-orange-500
+}
+
 .home {
      background-image: url("./assets/Bg.png");
      background-position: center;
@@ -14,3 +19,9 @@
      
 }
 
+
+.card:hover .ingrediant {
+
+    transform:translateY(0)
+    
+}

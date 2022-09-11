@@ -7,7 +7,7 @@ function ChoseFoodSection () {
   return (
     <section className='layout py-20'>
       <div className='container mx-auto p-4 bg-orange-600 w-[320px] xl:w-full rounded-md'>
-        <div className='flex items-center flex-col justify-center xl:flex-row  p-4 text-white gap-8'>
+        <div className='flex items-center flex-col xl:flex-row  p-4 text-white gap-8'>
           {choseFoodSection.map(item => {
             return (
               <div

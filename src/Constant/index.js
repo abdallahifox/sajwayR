@@ -69,20 +69,54 @@ export const choseFoodSection = [
 ];
 
 export const menus = [
+  //image must be 200x300
   {
     id: "1",
     name: "Chicken",
-    image: "https://via.placeholder.com/183x273",
+    image:
+      "https://cdn-icons-png.flaticon.com/512/1255/1255229.png?w=740&t=st=1662865527~exp=1662866127~hmac=832bd6f95708cd2bcd79cfaaad65ec0ebd669a53699764c245a58641b1b3c571",
     catigory: "meals",
     special: true,
     price: "89.00",
+    ingrediants: ["1x Chicken", "Cheese", "Fires", "Tomato"],
   },
   {
     id: "12",
-    name: "Shawrma",
-    image: "https://via.placeholder.com/183x273",
+    name: "Burger Mood",
+    image:
+      "https://cdn-icons-png.flaticon.com/512/1256/1256423.png?w=740&t=st=1662865589~exp=1662866189~hmac=fb9962bfe8f076d9bf1a392155054bffa1c04548416bda65a85d5438a8d0aff3",
     catigory: "Shandwitch",
     special: false,
     price: "50.00",
+    ingrediants: ["1x Chicken/Beef", "Chesse", "Tomato"],
+  },
+  {
+    id: "2",
+    name: "Pizza",
+    image:
+      "https://cdn-icons-png.flaticon.com/512/1205/1205772.png?w=740&t=st=1662865718~exp=1662866318~hmac=b61cb7f236b75510c81b12c05bfd007d8c4d048785a7f25e542521a9909d1adb",
+    catigory: "Pizza",
+    special: false,
+    price: "50.00",
+    ingrediants: ["Pizza, 1x Soda Cola"],
+  },
+  {
+    id: "3",
+    name: "Donats",
+    image:
+      "https://cdn-icons-png.flaticon.com/512/1231/1231317.png?w=740&t=st=1662865669~exp=1662866269~hmac=16c4497ca628c8a429b6a56c8ca25fd99ecdb482e256eca702c4339c323ae718",
+    catigory: "dessert",
+    special: false,
+    price: "50.00",
+    ingrediants: ["Donats, chooco"],
+  },
+  {
+    id: "4",
+    name: "Humburger Hot Dog",
+    image: "https://cdn-icons-png.flaticon.com/512/1249/1249335.png",
+    catigory: "shandwitch",
+    special: false,
+    price: "50.00",
+    ingrediants: ["1x burger", "Cheese", "Fires", "Tomato"],
   },
 ];
