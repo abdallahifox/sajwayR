@@ -2,6 +2,9 @@
 import ChoseFood from "./../assets/chooseFoodicon.png";
 import PlaceOrder from "./../assets/placeOrdericon.png";
 import GoIcon from "./../assets/goicon.png";
+import OurStory from "./../assets/ourStory.png";
+import OurMission from "./../assets/OurMission.png";
+import OurVission from "./../assets/ourVission.png";
 
 export const navLinks = [
   {
@@ -118,5 +121,26 @@ export const menus = [
     special: false,
     price: "50.00",
     ingrediants: ["1x burger", "Cheese", "Fires", "Tomato"],
+  },
+];
+
+export const aboutUs = [
+  {
+    id: "Our Story",
+    title: " Sajway Have 3+ <br /> Years Of Experiance.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.",
+    image: OurStory,
+  },
+  {
+    id: "Our Mission",
+    title: " Sajway Misson Is to <br /> Lorem ipsum dolor sit amet, ",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.",
+    image: OurMission,
+  },
+  {
+    id: "Our Vission",
+    title: "Sajway Vission Is to <br /> Lorem ipsum dolor sit amet, ",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.",
+    image: OurVission,
   },
 ];

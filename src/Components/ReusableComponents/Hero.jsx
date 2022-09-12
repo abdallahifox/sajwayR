@@ -6,11 +6,19 @@ import { Link } from 'react-router-dom'
 //TODO: Resources
 
 import HeroIamge from './../../assets/Image.png'
+import Bubble from './../../assets/Bubble.png'
+
 function Hero () {
   return (
-    <div className='home h-screen'>
+    <div className='home h-[650px] relative'>
+      <img
+        src={Bubble}
+        alt='Bubble'
+        className='absolute bottom-10 z-[56] hidden md:block'
+      />
+      <div className='absolute w-full h-full bg-black/75 left-0 top-0 z-1 '></div>
       <section className=' layout h-full'>
-        <div className='container mx-auto grid  xl:grid-cols-2 gap-4 place-items-center text-white w-full h-full'>
+        <div className='container mx-auto grid  xl:grid-cols-2 gap-4 place-items-center text-white w-full h-full relative z-[88]'>
           <div className='ml-4'>
             <h1 className='font-bold text-6xl mb-2'>
               Take Food

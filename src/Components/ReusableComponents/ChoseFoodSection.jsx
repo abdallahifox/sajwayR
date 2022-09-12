@@ -3,11 +3,11 @@ import React from 'react'
 //TODO: Constant
 import { choseFoodSection } from './../../Constant/index'
 
-function ChoseFoodSection () {
+function ChoseFoodSection ({ layout }) {
   return (
-    <section className='layout py-20'>
-      <div className='container mx-auto p-4 bg-orange-600 w-[320px] xl:w-full rounded-md'>
-        <div className='flex items-center flex-col xl:flex-row  p-4 text-white gap-8'>
+    <section className={` ${layout ? 'bg-orange-600' : 'layout py-20'}  `}>
+      <div className='container mx-auto p-4 bg-orange-600  w-[320px] xl:w-full rounded-md'>
+        <div className='grid place-items-center xl:grid-cols-3  p-4 text-white gap-4'>
           {choseFoodSection.map(item => {
             return (
               <div

@@ -8,17 +8,17 @@ import Layout from './Components/UI_Helper/Layout'
 import Navigation from './Components/Navigation/Navigation'
 import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home'
+import About from './Pages/About'
 function App () {
   return (
-    <>
-      <Layout>
-        <Navigation />
-        <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes>
-      </Layout>
+    <Layout>
+      <Navigation />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
       <Footer />
-    </>
+    </Layout>
   )
 }
 

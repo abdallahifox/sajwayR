@@ -1,11 +1,11 @@
 import React from 'react'
 
 //TODO: Import Components
-import Hero from './../Components/HomeComponents/Hero'
-import Special from './../Components/HomeComponents/Special'
-import ChoseFoodSection from './../Components/HomeComponents/ChoseFoodSection'
-import RegularMenu from './../Components/HomeComponents/RegularMenu'
-import CTA from './../Components/HomeComponents/CTA'
+import Hero from './../Components/ReusableComponents/Hero'
+import Special from './../Components/ReusableComponents/Special'
+import ChoseFoodSection from './../Components/ReusableComponents/ChoseFoodSection'
+import RegularMenu from './../Components/ReusableComponents/RegularMenu'
+import CTA from './../Components/ReusableComponents/CTA'
 function Home () {
   return (
     <>
