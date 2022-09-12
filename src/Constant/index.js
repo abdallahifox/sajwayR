@@ -6,6 +6,13 @@ import OurStory from "./../assets/ourStory.png";
 import OurMission from "./../assets/OurMission.png";
 import OurVission from "./../assets/ourVission.png";
 
+import Chef1 from "./../assets/Chef1.png";
+import Chef2 from "./../assets/Chef2.png";
+import Chef3 from "./../assets/Chef3.png";
+import Chef4 from "./../assets/Chef4.png";
+import Chef5 from "./../assets/Chef5.png";
+import Chef6 from "./../assets/Chef6.png";
+
 export const navLinks = [
   {
     id: "home-1",
@@ -128,19 +135,64 @@ export const aboutUs = [
   {
     id: "Our Story",
     title: " Sajway Have 3+ <br /> Years Of Experiance.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
     image: OurStory,
   },
   {
     id: "Our Mission",
     title: " Sajway Misson Is to <br /> Lorem ipsum dolor sit amet, ",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
     image: OurMission,
   },
   {
     id: "Our Vission",
-    title: "Sajway Vission Is to <br /> Lorem ipsum dolor sit amet, ",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.",
+    title: "Our Vission Is to <br /> Lorem ipsum dolor sit amet, ",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero corrupti eaque qui perspiciatis impedit odit culpa <br /> numquam tempore suscipit vel excepturi et ut teneturquod velit! Aliquam aliquid magnam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Libero corrupti eaque qui perspiciatis impedit odit culpa,<br /> numquam tempore suscipit vel excepturi et ut tenetur quod velit! Aliquam aliquid magnam laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
     image: OurVission,
+  },
+];
+
+export const ourChefs = [
+  {
+    id: 1,
+    name: "Ahmed Mohsen",
+    position: "Awarded Chef",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
+    image: Chef1,
+  },
+  {
+    id: 2,
+    name: "Mohamed Khaled",
+    position: "Awarded Chef",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
+    image: Chef2,
+  },
+  {
+    id: 3,
+    name: "Raafat Saleh",
+    position: "Awarded Chef",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
+    image: Chef3,
+  },
+  {
+    id: 4,
+    name: "Zakarya Ehab",
+    position: "Awarded Chef",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
+    image: Chef4,
+  },
+  {
+    id: 5,
+    name: "Ahmed Mohsen",
+    position: "Awarded Chef",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
+    image: Chef5,
+  },
+  {
+    id: 6,
+    name: "Abdallah Mohamed",
+    position: "Awarded Chef",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe numquam consequatur excepturi quibusdam suscipit repellat mollitia quis id quae rerum quia magni veritatis, <br /><br/> placeat sed laboriosam, iste eligendi voluptatem, a quo dolorum illum facere in temporibus? Deleniti, vel corporis.",
+    image: Chef6,
   },
 ];

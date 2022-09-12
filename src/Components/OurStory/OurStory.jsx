@@ -11,7 +11,7 @@ function OurStory () {
     <div className='layout py-10 my-10'>
       <div className='container mx-auto grid xl:grid-cols-2 place-items-center gap-4'>
         <div className='flex flex-col items-center justify-center bg-orange-200 rounded-md p-8'>
-          <div className='flex flex-col xl:flex-row items-center gap-2 bg-base-200 p-4 rounded-md  mb-4'>
+          <div className='flex flex-col md:flex-row items-center gap-2 bg-base-200 p-4 rounded-md  mb-4'>
             {buttons.map((item, i) => {
               return (
                 <button
