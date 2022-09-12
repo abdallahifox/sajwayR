@@ -34,7 +34,11 @@ function RegularMenu () {
                         })}
                       </div>
                     </div>
-                    <img src={item.image} alt={item.name} />
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className='w-[183px] h-[183px]'
+                    />
                   </figure>
                   <div className='card-body bg-base-100 m-1 rounded-md'>
                     <h2 className='card-title'>{item.name}</h2>
