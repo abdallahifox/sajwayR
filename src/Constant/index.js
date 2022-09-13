@@ -3,7 +3,7 @@ import ChoseFood from "./../assets/chooseFoodicon.png";
 import PlaceOrder from "./../assets/placeOrdericon.png";
 import GoIcon from "./../assets/goicon.png";
 import OurStory from "./../assets/ourStory.png";
-import OurMission from "./../assets/OurMission.png";
+import OurMission from "./../assets/ourMission.png";
 import OurVission from "./../assets/ourVission.png";
 
 import Chef1 from "./../assets/Chef1.png";
