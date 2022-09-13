@@ -7,7 +7,10 @@ function OurSpecialChef () {
       <div className='container mx-auto grid md:grid-cols-2 place-items-center p-4 gap-4'>
         {ourChefs.map(chef => {
           return (
-            <div className='flex flex-col xl:flex-row  p-8 bg-orange-200 rounded-md hover:translate-y-3 ease-in-out duration-300'>
+            <div
+              key={chef.id}
+              className='flex flex-col xl:flex-row  p-8 bg-orange-200 rounded-md hover:translate-y-3 ease-in-out duration-300'
+            >
               <div className='flex flex-col items-center '>
                 <div className='w-[200px] h-[218px] '>
                   <img

@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 import Bubble from './../../assets/Bubble.png'
 function HeroBanner ({ title }) {
@@ -8,9 +9,14 @@ function HeroBanner ({ title }) {
       <img src={Bubble} alt='Bubble' className='absolute bottom-10' />
       <section className='layout h-full '>
         <div className='container mx-auto grid grid-cols-1 place-items-center text-white w-full h-full'>
-          <div className='ml-4'>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            className='ml-4'
+          >
             <h1 className='font-bold text-6xl mb-2 relative'>{title}</h1>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>

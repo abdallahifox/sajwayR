@@ -24,16 +24,6 @@ export const navLinks = [
     title: "About",
     link: "/about",
   },
-  {
-    id: "Menus-1",
-    title: "Today's Menus",
-    link: "menus",
-  },
-  {
-    id: "contact-1",
-    title: "Contact",
-    link: "/contact",
-  },
 ];
 
 export const navLinksMobile = [
@@ -48,12 +38,6 @@ export const navLinksMobile = [
     title: "About",
     link: "/about",
     icon: "https://api.iconify.design/eva:info-outline.svg?color=%23ffffff",
-  },
-  {
-    id: "Menus-1",
-    title: "Menus",
-    link: "/menus",
-    icon: "https://api.iconify.design/ic:twotone-restaurant-menu.svg?color=%23ffffff",
   },
 ];
 
