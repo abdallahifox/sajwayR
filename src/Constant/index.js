@@ -24,6 +24,11 @@ export const navLinks = [
     title: "About",
     link: "/about",
   },
+  {
+    id: "login-1",
+    title: "Login",
+    link: "/login",
+  },
 ];
 
 export const navLinksMobile = [
@@ -38,6 +43,12 @@ export const navLinksMobile = [
     title: "About",
     link: "/about",
     icon: "https://api.iconify.design/eva:info-outline.svg?color=%23ffffff",
+  },
+  {
+    id: "login-1",
+    title: "Login",
+    link: "/login",
+    icon: "https://api.iconify.design/eva:person-outline.svg?color=%23ffffff",
   },
 ];
 
