@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 
+//TODO: redux Imports
+import { useSelector } from "react-redux";
+
 //TODO: React Router
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -15,6 +18,7 @@ import Login from "./Pages/Login";
 import Error from "./Pages/Error404";
 function App() {
   const location = useLocation();
+  const isAuth = useSelector((state) => state.authSlice.isAuth);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,7 +31,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
-          <Route path="/login" exact element={<Login />} />
+          {!isAuth && <Route path="/login" exact element={<Login />} />}
           <Route path="*" element={<Error to="/404" />} />
         </Routes>
       </AnimatePresence>

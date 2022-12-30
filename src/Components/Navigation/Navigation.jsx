@@ -3,12 +3,16 @@ import React from "react";
 //TODO: React Router
 import { Link } from "react-router-dom";
 
+//TODO: redux Imports
+import { useSelector } from "react-redux";
+
 //TODO: Import Logo And BG Constant
 import Logo from "./../../assets/Logo.png";
 import TimeHeader from "./../../assets/TimeHeader.png";
-import { navLinks, navLinksMobile } from "./../../Constant/index";
 
 function Navigation() {
+  const isAuth = useSelector((state) => state.authSlice.isAuth);
+
   return (
     <>
       <div className="bg-black/75 absolute top-0 left-0 w-full h-[126] z-[999]">
@@ -30,16 +34,16 @@ function Navigation() {
             <div className="hidden xl:flex navbar bg-orange-500 rounded-full justify-center w-[600px]">
               <div className="items-center mx-3">
                 <ul className="menu menu-horizontal text-black font-semibold">
-                  {navLinks.map((nav) => {
-                    return (
-                      <li className="active:bg-orange-300" key={nav.id}>
-                        <Link to={`${nav.link}`}>{nav.title}</Link>
-                      </li>
-                    );
-                  })}
-
-                  <li className="bg-black rounded-full text-white">
-                    <a>+000000000000</a>
+                  <li className="active:bg-orange-300">
+                    <Link to="/">Home</Link>
+                  </li>
+                  {!isAuth && (
+                    <li className="active:bg-orange-300">
+                      <Link to="/login">Login</Link>
+                    </li>
+                  )}
+                  <li className="active:bg-orange-300">
+                    <Link to="/about">About</Link>
                   </li>
                 </ul>
               </div>
@@ -48,20 +52,38 @@ function Navigation() {
             {/* Mobile Menu */}
             <div className="xl:hidden fixed z-[99] left-1/2 bottom-10 -translate-x-1/2 bg-black/75 py-2 pr-3 rounded-full text-white ">
               <ul className="menu menu-horizontal bg-base-500 rounded-box text-sm">
-                {navLinksMobile.map((nav) => {
-                  return (
-                    <li key={nav.id} className="hover:cursor-pointer">
-                      <Link to={`${nav.link}`}>
-                        <img
-                          src={nav.icon}
-                          className="text-white"
-                          alt="ICONS"
-                        />
-                        {nav.title}
-                      </Link>
-                    </li>
-                  );
-                })}
+                <li className="hover:cursor-pointer">
+                  <Link to="/">
+                    <img
+                      src="https://api.iconify.design/eva:home-outline.svg?color=%23ffffff"
+                      className="text-white"
+                      alt="ICONS"
+                    />
+                    Home
+                  </Link>
+                </li>
+                <li className="hover:cursor-pointer">
+                  {!isAuth && (
+                    <Link to="/login">
+                      <img
+                        src="https://api.iconify.design/eva:person-outline.svg?color=%23ffffff"
+                        className="text-white"
+                        alt="ICONS"
+                      />
+                      Login
+                    </Link>
+                  )}
+                </li>
+                <li className="hover:cursor-pointer">
+                  <Link to="/about">
+                    <img
+                      src="https://api.iconify.design/eva:info-outline.svg?color=%23ffffff"
+                      className="text-white"
+                      alt="ICONS"
+                    />
+                    About
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

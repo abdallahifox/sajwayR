@@ -32,21 +32,24 @@ function LoginFrom() {
         Welcome to Sajway{" "}
         <span className="text-orange-600 font-bold">LOGIN</span> Page
       </div>
-      <form onSubmit={loginHandelar} className="w-1/3">
+      <form
+        onSubmit={loginHandelar}
+        className="w-1/3 bg-orange-300/60 rounded-md p-4"
+      >
         <div className="form-control w-full max-w-xs">
           <label className="label">
-            <span className="label-text">Email Adress?</span>
+            <span className="label-text font-semibold">Email Adress?</span>
           </label>
           <input
             ref={userEmail}
-            type="text"
+            type="Email address"
             placeholder="Type here"
             className="input input-bordered w-full max-w-xs"
           />
         </div>
         <div className="form-control w-full max-w-xs">
           <label className="label">
-            <span className="label-text">Password?</span>
+            <span className="label-text font-semibold">Password?</span>
           </label>
           <input
             ref={userPassword}

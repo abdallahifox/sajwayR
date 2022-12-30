@@ -13,45 +13,6 @@ import Chef4 from "./../assets/Chef4.png";
 import Chef5 from "./../assets/Chef5.png";
 import Chef6 from "./../assets/Chef6.png";
 
-export const navLinks = [
-  {
-    id: "home-1",
-    title: "Home",
-    link: "/",
-  },
-  {
-    id: "about-1",
-    title: "About",
-    link: "/about",
-  },
-  {
-    id: "login-1",
-    title: "Login",
-    link: "/login",
-  },
-];
-
-export const navLinksMobile = [
-  {
-    id: "home-1",
-    title: "Home",
-    link: "/",
-    icon: "https://api.iconify.design/eva:home-outline.svg?color=%23ffffff",
-  },
-  {
-    id: "about-1",
-    title: "About",
-    link: "/about",
-    icon: "https://api.iconify.design/eva:info-outline.svg?color=%23ffffff",
-  },
-  {
-    id: "login-1",
-    title: "Login",
-    link: "/login",
-    icon: "https://api.iconify.design/eva:person-outline.svg?color=%23ffffff",
-  },
-];
-
 export const choseFoodSection = [
   {
     id: "choseFood",
